@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+
+# tests
+/coverage
+/playwright-report
+/test-results
+
+# local environment
+.env
+.env.*
+!.env.example
+
+# Supabase
+/.supabase
+/supabase/.branches
+/supabase/.temp
+
+# Capacitor
+/android/.gradle
+/android/local.properties
+
+# editors and operating systems
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+*.log
+*.tsbuildinfo
